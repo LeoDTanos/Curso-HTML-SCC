@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(167, 165, 172, 0.81);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    width: 99%;
+    height: 120px;
+    background-color: rgba(151, 148, 159, 0.747);
+    padding-left: 10px;
+}
+header img{
+    width: 120px;
+    float: left;
+} 
+header nav{
+    padding: auto;
+}
+
+header nav ol li{
+    float: left;
+    list-style-type: none;
+    padding-top: 2.3cm;
+   
+}
+header nav ol li a{
+    text-decoration:none;
+    padding: 9px;
+    display:grid ;
+    text-transform:none;
+    color: rgb(10, 9, 10);
+    font-size: 14px;
+   
+}
+header nav ol li a:hover{
+    background-color: rgba(19, 19, 19, 0.822);
+    color: rgb(254, 252, 252);
+}
+main{
+    width: 72.2%;
+    height: 550px;
+    background-color: rgb(114, 108, 108);
+    float: left;
+    clear: both;
+    
+}
+main section{
+    padding: 30px;
+    
+} 
+main section h2{
+    color: rgb(173, 173, 246);
+    font-size: 170%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+main section p{
+    color: rgb(11, 0, 3);
+    text-align: left;
+    margin-bottom: 15px;
+    line-height: 1.6em;
+}
+aside {
+    width: 27%;
+    padding: 57px;
+    background-color: rgb(88, 96, 112);
+    float: left;
+}
+aside h3, aside ul li{
+    color:bisque ;
+    margin-bottom: 12px;
+    
+}
+aside ul li{
+    list-style-type:lower-roman;
+    border-bottom: 2px double
+    rgb(212, 207, 207);
+}
+aside ul li:hover{
+    border: 1px dotted rgb(21, 21, 21);
+    padding: 8px;
+    border-radius: 8px;
+    background-color: rgb(78, 67, 54);
+}
+
+.containt{
+    max-width: 1100px;
+    margin: 0px auto;
+}
+footer{
+    clear: both;
+    width: 72%;
+    background-color: rgb(139, 129, 117);
+    padding: 40px;
+}
+footer section{
+    width: 33.3%;
+    float:left;
+}
+footer section p{
+    color: black;
+    text-align: center;
+
+}

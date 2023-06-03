@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+header {
+    height: 112.5px;
+    width: 100%;
+    background-color: #fbd44f;
+    padding: 0 30px;
+    position: fixed;
+    box-shadow: 0px 10px 10px 0px rgba(251, 212, 79, 0.5);
+}
+
+header img {
+    width: 200px;
+    float: right;
+}
+
+header nav {
+    float: left;
+    margin-top: 30px;
+    box-shadow: 2px 0px 40px 7px #1c1c1c;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+header nav ul li a:hover {
+    color: #fe0509;
+    font-weight: bold;
+    background: #fde652b6;
+    box-shadow: 2px 0px 10px 7px #e10808;
+}
+
+aside {
+    clear: both;
+    margin-top: 30px;
+    width: 35%;
+    padding: 112.5px 20px 20px 20px;
+    border-right: 1px solid #fbd44f;
+    float: left;
+}
+
+aside p {
+    padding: 3px;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 16px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    box-shadow: 2px 0px 10px 7px #0c0c0c;
+    border: 2px solid #fe0509;
+}
+
+aside nav ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+aside nav ul li {
+    margin-bottom: 10px;
+    font-size: 30px;
+    border-bottom: 2px solid #fe0509;
+}
+
+aside nav ul li a {
+    text-decoration: none;
+    color: #24a04a;
+}
+
+aside nav ul li:hover,
+aside nav ul li a:hover {
+    border-bottom: 2px solid #24a04a;
+    color: #fe0509;
+}
+
+aside form {
+    width: 100%;
+    padding: 20px;
+    border: 2px solid #fe0509;
+    border-radius: 10px;
+    box-shadow: 2px 10px 20px 7px #0c0c0c;
+}
+
+aside form h1 {
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+
+aside form input,
+aside form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #24a04a;
+    color: white;
+}
+
+aside form textarea {
+    height: 80px;
+}
+
+aside form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #24a04a;
+    color: white;
+    border: none;
+    cursor:pointer ;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+aside form button:hover {
+    background-color: #fe0509;
+}
+::placeholder{
+    color: aliceblue;
+    font-size: 15px;
+}
+
+aside form input:focus,
+aside form textarea:focus {
+    background-color: black;
+    font-size: 20px;
+}
+
+main {
+    width: 65%;
+    float: left;
+    padding: 112.5px 20px 20px 20px;
+}
+
+main section h5 {
+    width: 34%;
+    padding: 10px;
+    margin-top: 55px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 6px;
+    font-weight: bold;
+    box-shadow: 2px 0px 10px 7px #908b8b;
+    border: 2px solid #d9fe05;
+}
+
+main section div.card {
+    margin-bottom: 20px;
+    width: calc(33.33% - 20px);
+    display: inline-block;
+    border: 2px solid #24a04a;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px 0px rgba(251, 212, 79, 0.5);
+}
+
+main section div.card .card-imagen,
+main section div.card .card-imagen2,
+main section div.card .card-imagen3,
+main section div.card .card-imagen4,
+main section div.card .card-imagen5,
+main section div.card .card-imagen6,
+main section div.card .card-imagen7,
+main section div.card .card-imagen8,
+main section div.card .card-imagen9 {
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 0px 0px;
+}
+
+main section div.card .card-imagen {
+    background-image: url(../imagenes/plato.png);
+}
+
+main section div.card .card-imagen2 {
+    background-image: url(../imagenes/pizzaitalianapng.png);
+}
+
+main section div.card .card-imagen3 {
+    background-image: url(../imagenes/pizzaitaliana3.png);
+}
+main section div.card .card-imagen4{
+    background-image: url(../imagenes/china1.png);
+}
+main section div.card .card-imagen5{
+    background-image: url(../imagenes/china2.png);
+}
+main section div.card .card-imagen6{
+    background-image: url(../imagenes/china3.png);
+}
+main section div.card .card-imagen7{
+    background-image: url(../imagenes/japonesa1.png);
+}
+main section div.card .card-imagen8{
+    background-image: url(../imagenes/japonesa2.png);
+    width: 170%;
+}
+main section div.card .card-imagen9{
+    background-image: url(../imagenes/japonesa3.png);
+}
+
+main section div.card .precio {
+    background: #24a04a;
+    width: 25%;
+    color: white;
+    font-size: 20px;
+    border-radius: 0px 0px 10px 0px;
+}
+
+main section div.card .descrition {
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+main section div.card button {
+    width: 100%;
+    border: none;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+main section div.card button:hover {
+    background: #fbd44f;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    background: #fbd44f;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 10px rgba(251, 212, 79, 0.5);
+}
+
+footer div {
+    width: 100%;
+}
+
+footer div span {
+    float: right;
+    box-shadow: 0px 10px 10px 0px #0c0c0c;
+    padding-left: 9px;
+    
+
+}
+footer a img{
+    width: 50px;
+    height:50px;
+    margin-left: 50px;
+    padding-right: 2px;
+    box-shadow:0px 10px 10px 0px #0c0c0c;
+}

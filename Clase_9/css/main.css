@@ -1,0 +1,30 @@
+
+.container {
+    position: relative;
+  }
+  
+  .square {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .square1 {
+    background-color: red;
+    z-index: 3;
+  }
+  
+  .square2 {
+    background-color: green;
+    z-index: 2;
+    left: 20px; /* Superposición del 20% */
+    top: 20px; /* Superposición del 20% */
+  }
+  
+  .square3 {
+    background-color: blue;
+    z-index: 1;
+    left: 40px; /* Superposición del 40% */
+    top: 40px; /* Superposición del 40% */
+  }
+  

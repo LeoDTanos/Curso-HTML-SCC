@@ -1,0 +1,56 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(208, 239, 239);
+    box-shadow: 3px 3px 3px rgb(221, 79, 202);
+    border: 2px solid rgb(64, 193, 190);
+    border-radius: 25px;
+    transition: max-width .3s ease, margin .3s ease;
+   
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+/* Estilos de la foto de portada */
+.photo {
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.photo img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    
+}
+/* Estilos responsivos */
+@media (min-width:1px) and (max-width: 1200px) {
+    .container {
+        padding: 10px;
+        background-color: rgb(122, 177, 177);
+        border: 2px solid black;
+        border-radius: 10px;
+        transition: 1s;
+        
+        
+    }
+    
+    .photo img {
+        max-width: 100%;
+        filter: sepia(100%);
+        transition: 1s;
+        transform: rotateZ('angle');
+    }
+}
